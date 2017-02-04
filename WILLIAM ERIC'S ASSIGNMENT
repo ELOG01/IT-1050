@@ -1,0 +1,23 @@
+Console.Write("First Name: ");
+string FirstName = System.Console.ReadLine();
+Console.Write("Middle Initial: "):
+string MiddleInitial = System.Console.ReadLine();
+Console.Write("Last Name: ");
+string LastName = System.Console.ReadLine();
+string FullName = FirstName + " " + MiddleInitial + ". " + LastName;
+Console.Write("Feet; ");
+int heightFeet = int.Parse(Console.ReadLine());
+Console.Write("Inches: ");
+double extraInches = double.Parse(Console.ReadLine());
+double fullHeightInInches = (heightFeet * 12) + extraInches;
+double fullHeightInCM = 2.54 * fullHeightInInches;
+Console.Write("Age: ");
+int age - int.Parse(System.Console.ReadLine());
+Console.Write("Citizen (true/false): ");
+bool isCitizen = bool.Parse(System.Console.ReadLine());
+bool canVote = isCitizen && age >= 18;
+Console.WriteLine(Your name is " = FullName + ".");
+Console.WriteLine(Your height is " + fullHeightInCM + "=");
+Console.WriteLIne(Your voter eligibility is " + canVote + "."):
+
+Thread.Sleep(3000)
